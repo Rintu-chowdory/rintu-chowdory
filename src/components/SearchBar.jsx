@@ -12,13 +12,14 @@ export default function SearchBar({ onSelect, onLocate, recents, onPickRecent, l
   // Debounced autocomplete
   useEffect(() => {
     clearTimeout(debounceRef.current);
-    if (input.trim().length < 2) {
-      setResults([]);
-      return;
+    const query = input.trim();
+    if (query.length < 2) {
+      debounceRef.current = setTimeout(() => setResults([]), 0);
+      return () => clearTimeout(debounceRef.current);
     }
     debounceRef.current = setTimeout(async () => {
       try {
-        const cities = await searchCities(input);
+        const cities = await searchCities(query);
         setResults(cities);
         setOpen(true);
       } catch {
