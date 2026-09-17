@@ -1,15 +1,76 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Skycast — a glassmorphic weather dashboard with hourly, 7-day forecast, sun path and live conditions. Powered by Open-Meteo, no API key needed." />
-    <meta name="theme-color" content="#0ea5e9" />
-    <title>Skycast · Weather Dashboard</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rintu Chowdory — builder from Baesweiler, Germany. Agentic frameworks, dashboards and live apps." />
+  <title>Rintu Chowdory · Builder</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(160deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%);
+      color: #fff;
+      padding: 24px;
+    }
+    .card {
+      max-width: 520px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 24px;
+      padding: 40px 36px;
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      text-align: center;
+    }
+    .avatar {
+      width: 64px; height: 64px;
+      margin: 0 auto 18px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem;
+    }
+    h1 { font-size: 1.7rem; font-weight: 800; letter-spacing: -0.02em; }
+    .tag { opacity: 0.75; margin: 10px 0 26px; font-size: 0.95rem; }
+    .links { display: flex; flex-direction: column; gap: 10px; }
+    a {
+      display: flex; align-items: center; justify-content: space-between;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.95rem;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 14px;
+      padding: 14px 18px;
+      transition: all 0.2s ease;
+    }
+    a:hover { background: rgba(255, 255, 255, 0.2); transform: translateY(-2px); }
+    .sub { opacity: 0.6; font-size: 0.78rem; font-weight: 500; }
+    footer { margin-top: 26px; font-size: 0.75rem; opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">◈</div>
+    <h1>Rintu Chowdory</h1>
+    <p class="tag">Builder · DevOps explorer · Baesweiler, Germany</p>
+    <nav class="links">
+      <a href="https://rintu-chowdory.github.io/wolkenschau/">☁️ Wolkenschau — weather dashboard <span class="sub">NEW</span></a>
+      <a href="https://github.com/Rintu-chowdory/OpenAGI">🤖 OpenAGI Personal Edition <span class="sub">standalone agents</span></a>
+      <a href="https://rintu-chowdory.github.io/dialing-innovations/">📞 Dialing Innovations <span class="sub">call-center dashboard</span></a>
+      <a href="https://rintu-chowdory.github.io/killercoda.com/">⌨️ Killercoda Hub <span class="sub">playgrounds</span></a>
+      <a href="https://github.com/Rintu-chowdory">🐙 All my repos <span class="sub">github</span></a>
+    </nav>
+    <footer>rintu-chowdory.github.io · built with vanilla HTML/CSS</footer>
+  </main>
+</body>
 </html>

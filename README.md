@@ -22,7 +22,7 @@ Most of what I build ends up deployed on GitHub Pages or a VPS, usually within t
 | --- | --- |
 | [**OpenAGI Personal Edition**](https://github.com/Rintu-chowdory/OpenAGI) | Standalone agentic framework fork — decoupled from the AIOS kernel, runs against Groq/OpenAI-compatible APIs with a custom `openagi` CLI and 4 custom agents |
 | [**Dialing Innovations**](https://github.com/Rintu-chowdory/dialing-innovations) | Glassmorphic call-center dashboard with a FastAPI + SQLite backend and live/demo data switching → [live demo](https://rintu-chowdory.github.io/dialing-innovations/) |
-| [**Skycast**](https://github.com/Rintu-chowdory/rintu-chowdory) | This site — a weather dashboard with hourly charts, sun-path arc and city search. No API key, powered by Open-Meteo → [live demo](https://rintu-chowdory.github.io/rintu-chowdory/) |
+| [**Wolkenschau**](https://github.com/Rintu-chowdory/wolkenschau) | ☁️ Glassmorphic weather dashboard — dynamic weather themes, hourly charts, sun-path arc, city search. No API key, powered by Open-Meteo → [live demo](https://rintu-chowdory.github.io/wolkenschau/) |
 | [**Killercoda Hub**](https://github.com/Rintu-chowdory/killercoda.com) | Interactive playground landing page with animated terminal hero → [live demo](https://rintu-chowdory.github.io/killercoda.com/) |
 
 ### 🛠️ Tech I work with
@@ -52,6 +52,6 @@ Most of what I build ends up deployed on GitHub Pages or a VPS, usually within t
 
 <div align="center">
 
-*This repo also hosts my weather dashboard — check out the [live version](https://rintu-chowdory.github.io/rintu-chowdory/).*
+*Wolkenschau means "cloud view" — check out the [live weather dashboard](https://rintu-chowdory.github.io/wolkenschau/).*
 
 </div>
